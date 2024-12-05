@@ -16,7 +16,7 @@ public class TestePID extends LinearOpMode {
 
     @Override
     public void runOpMode() {
-        // Inicialização do hardware
+    
         slideH = hardwareMap.get(DcMotor.class, "slideH");
         slideH.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
         slideH.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
