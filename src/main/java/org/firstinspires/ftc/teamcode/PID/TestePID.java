@@ -60,7 +60,6 @@ public class TestePID extends LinearOpMode {
             }
         }
 
-        // Parar o motor ao final
-        slideH.setPower(0);
+    slideH.setPower(0);
     }
 }
